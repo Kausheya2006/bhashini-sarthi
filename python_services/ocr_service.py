@@ -12,7 +12,7 @@ try:
 except ImportError:
     OCR_AVAILABLE = False
 
-GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyCukxYVbX0sY6SYmVxVuhJlTu_SMmQzOP4')
+GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'aaa')
 genai.configure(api_key=GEMINI_API_KEY)
 
 if OCR_AVAILABLE:

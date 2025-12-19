@@ -42,7 +42,7 @@ export async function handleOCRSession(req: Request, res: Response) {
     ], {
       env: {
         ...process.env,
-        GEMINI_API_KEY: process.env.GEMINI_API_KEY || "AIzaSyCukxYVbX0sY6SYmVxVuhJlTu_SMmQzOP4"
+        GEMINI_API_KEY: process.env.GEMINI_API_KEY
       }
     });
 

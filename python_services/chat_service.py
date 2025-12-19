@@ -22,7 +22,7 @@ SUPPORTED_LANGUAGES = {
 }
 
 # Gemini Client
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyCD2SuTy_QLg-XtKO46ltcUespFeu8Hauw")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "aaaa")
 gemini_client = None
 
 try:
